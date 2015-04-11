@@ -19,7 +19,7 @@ var PickerItemIOS = PickerIOS.Item;
 var Question = React.createClass({
   render: function() {
     return (
-        <Text style={styles.question} onPress={this.open}>
+        <Text style={styles.question}>
           {this.props.data.event}
         </Text>
     )
