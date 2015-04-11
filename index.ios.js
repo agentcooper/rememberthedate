@@ -21,7 +21,7 @@ var rememberthedate = React.createClass({
       <NavigatorIOS
         style={styles.container}
         initialRoute={{
-          title: 'Movies',
+          title: 'Quiz',
           component: Questions
         }}/>
     );
