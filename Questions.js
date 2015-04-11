@@ -20,7 +20,7 @@ var Question = React.createClass({
   render: function() {
     return (
         <Text style={styles.question} onPress={this.open}>
-          {this.props.data.event} {this.props.data.year}
+          {this.props.data.event}
         </Text>
     )
   }
